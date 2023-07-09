@@ -72,8 +72,8 @@ nav> .nav-btn{
     align-items: center;
 }
 .nav-btn>button{
-   min-width: 100px;
-   min-height: 50px;
+    min-width: 100px;
+    min-height: 50px;
     background-color: tomato;
     padding: 1rem;
     border: none;
@@ -108,164 +108,66 @@ nav>ul>li>a{
 
 /* main style start */
 
-main{
-    width: 100vw;
-    min-height: 100px;
-    background-color:whitesmoke;
-}
-
-.profile-div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0rem 25rem;
-}
-.main-profile{
-    min-width: 500px;
-    min-height:500px ;
-    border-radius: 20%;
-    text-align: center;
-}
-.main-profile-img{
-    width: 500px;
-    height: 500px;
-    border-radius: 20%;
-    border: 1px solid black;
-    margin-top: 2rem;
-    box-shadow: rgba(240, 46, 169, 0.253) -5px 5px, rgba(240, 46, 169, 0.295) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
-}
-
-.main-caption{
-    width: 800px;
-    height:800px ;
-    padding: 12.5rem 10rem 12.5rem 10rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: center;
-    gap: 1.2rem;
-}
-.main-caption>h1{
-    font-size: 3rem;
-    text-align: start;
-    margin-bottom: 1rem;
-    width: 800px;
-}
-.main-caption>p{
-    font-size: 1.5rem;
-    text-align: start;
-    line-height: normal;
-}
-.main-caption>ul{
-    margin-right: 20rem;
-}
-.main-caption>ul>li{
-    list-style:inside;
-    font-size: 1.2rem;
-    text-align: start;
-    width: 350px;
-    height: 30px;
-}
-.main-caption-2{
-    margin-top:2rem ;
-    text-align: center;
-    font-size: 3rem;
-}
-.icons-div{
-    width: 1600px;
-    min-height:100px ;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 2rem ;
-    padding: 2rem 5rem;
+.about{
+    width: 100%;
+    min-height: 100%;
+    flex-shrink: 0;
     border-radius: 10px;
-    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    border: none;
+    margin: 0rem auto 0rem auto;
+    padding: 100px 130px 100px 130px;
+    box-shadow:  inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+    0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);;
 }
-.icons{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.icons>img{
-    width: 92.958px;
-    height: 92.958px;
-    flex-shrink: 0;
-    margin-bottom: 0.8rem;
-}
-.icons>h3{
-    color: #151414;
+.section-tittle{
+    color:#181818;
     text-align: center;
-    font-family: Work Sans;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    margin-bottom: 0.5rem;
-}
-.icons>p{
-    color: #737272;
-    text-align: center;
-    font-family: Work Sans;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-}
-
-.call-now{
-    width: 1140px;
-    height: 350px;
-    flex-shrink: 0;
-    border-radius: 8px;
-    background-image: url('../images/watch.png');
-    background-repeat: no-repeat;
-    margin-top: 6rem;
-    padding-bottom: ;
-}
-.back-img{
-    padding: 2rem;
-    width: 1140px;
-    height: 300px;
-    flex-shrink: 0;
-    border-radius: 8px;
-
-    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%);
-}
-.back-img>h1{
-    display: flex;
-    width: 459px;
-    flex-direction: column;
-    color: #FFF;
-    font-family: Work Sans;
-    font-size: 40px;
+    font-size: 35px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
 }
-.back-img>button{
-    width: 160px;
-    height: 64px;
+.section-para{
+    display: flex;
+    width: 827px;
     flex-shrink: 0;
-    border-radius: 5px;
-    background: #FFF;
-    color: #F15B22;
+    color: #474747;
     text-align: center;
-    font-family: Work Sans;
-    font-size: 25px;
+    font-size: 30px;
     font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    margin-left: 19rem;
-    margin-top: 3rem;
-}
-.back-img>button:hover{
-    background-color: green;
-    color: white;
-    cursor: pointer;
+    font-weight: 400;
+    line-height: 40px;
+    padding: 0 156px 0 156px;
+    margin-bottom: 2rem;
 }
 
+.about-info-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin: 5rem 10rem 0 10rem;
+}
+.about-info{
+    height:120px ;
+    min-width: 100px;
+    border-radius: 5px;
+    border: 0;
+    padding: 1rem 2rem 1rem 2rem;
+    box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, 0.4);
+}
+.about-tittle{
+    margin-bottom: 1rem;
+    padding: 1rem;
+    height: 10px;
+    font-size: 1.2rem;
+}
+.info-description{
+    text-align: center;
+    padding: 0.5rem;
+    margin-right: 1rem;
+}
 
 /* main style end */
 
@@ -372,13 +274,5 @@ footer{
 /* footer style end */
 
 
-/* icons start */
-.phone-icon{
-    width: 23px;
-    height: 23px;
-    margin-top: 0.2rem;
-    margin-right: 0.5rem;
-}
 
-/* icons end */
 
