@@ -3,11 +3,47 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* header style start */
+
+/* header start */
+ header{
+    background-image: url('../images/banner2.png');
+    background-repeat: no-repeat;
+    background-size:100%;
+    min-height: 1000px;
+    width: 100vw; 
+ }
+
+ .header-caption{
+    margin-top: 1.5rem;
+    margin-left: 30%;
+    margin-right: 5%;
+    height: 50rem;
+    padding: 17rem;
+    background-image: url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-size: 6.5%;
+    background-position: bottom right;
+
+} 
+ .header-caption>h2{
+    font-size: 3rem;
+    text-align: center;
+    padding: 3rem;
+}
+.header-caption>h3{
+    font-size: 2rem;
+    text-align: center; 
+}
+
+
+/* header end */
+
+
+/* nav style start */
 
 nav{
     width: 100vw;
-    min-height:50px ;
+   min-height:50px ;
     background-image: url('../images/gradient2.png');
     background-repeat: no-repeat;
     background-size: 100%;
@@ -67,7 +103,5 @@ nav>ul>li>a{
     font-size: 1.5rem;
     font-weight: 550;
 }
-
-
 
 /* nav style end */
