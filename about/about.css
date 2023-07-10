@@ -40,7 +40,7 @@
 
 nav{
     width: 100vw;
-   min-height:50px ;
+    min-height:50px ;
     background-image: url('../images/gradient2.png');
     background-repeat: no-repeat;
     background-size: 100%;
@@ -111,6 +111,7 @@ nav>ul>li>a{
 .about{
     width: 100%;
     min-height: 100%;
+    background-color:#FFF;
     flex-shrink: 0;
     border-radius: 10px;
     border: none;
@@ -250,7 +251,7 @@ footer{
     border-radius: 5px;
     padding-left: 1rem;
     margin-top: 0.5rem;
-    font-family: 1.5rem;
+    font-size: 1.5rem;
 }
 .right-column>button{
     width: 120px;

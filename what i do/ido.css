@@ -108,29 +108,10 @@ nav>ul>li>a{
 
 /* main style start */
 
-.about-info-container{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-.about-info{
-    min-width:180px;
-    text-align: center;
-    border-radius: 5px;
-    border: 0;
-    padding: 0 1rem 0 1rem;
-    box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, 0.4);
-}
-.about-tittle{
-    height: 5px;
-    font-size: 1.2rem;
-}
-.info-description{
-    font-size: 1.5rem;
-}
-
 .what-i-do{
-    margin: 2rem auto 0 auto;
+    width: 100%;
+    height: auto;
+    margin: 0 auto 0 auto;
     padding: 100px 130px 100px;
 }
 .what-i-do-para{
